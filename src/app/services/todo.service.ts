@@ -4,9 +4,9 @@ import { Todo } from '../models/Todo';
 import { Observable } from 'rxjs';
 
 const httpOptions = {
-    headers: new HttpHeaders({
-      'Content-Type': 'applicaiton/json'
-    })
+  headers: new HttpHeaders({
+    'Content-Type': 'applicaiton/json'
+  })
 }
 
 @Injectable({
